@@ -1,5 +1,6 @@
-export class ConducteurPlaceDto {
+export class ConducteurVehiculeDto {
   readonly id: number;
-  readonly name: string;
+  readonly driverName: string;
+  readonly vehicleModel: string;
   // Ajoutez d'autres propriétés en fonction de votre modèle de données.
 }
